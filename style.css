@@ -1,0 +1,193 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+#marked{
+    color: tomato;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+.header-area{
+    background-image: linear-gradient(rgba(0,0, 0, 0.12),black),url(images/donation9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    
+}
+.donate-slogun{
+    text-align: center;
+} 
+.donate-slogun h1{
+    color: azure;
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 250px;
+    margin-bottom: 10px;
+}
+.donate-slogun p{
+    color: azure;
+    margin-bottom: 30px;
+}
+.donate-slogun a{
+    text-decoration: none;
+    color: azure;
+    background-color: tomato;
+    padding: 8px 17px;
+    border-radius: 5px;
+}
+.donate-quote{
+    text-align: center;
+    margin-top: 150px;
+}
+.donate-quote h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.donate-quote p{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.donate-amount{
+    display: flex;
+    justify-content: center;
+}
+.donate-amount p{
+    color: rgba(94, 91, 91, 0.925);
+    font-size: 35px;
+    font-weight: 900;
+    border: 2px lightslategrey;
+    padding: 30px 15px;
+    margin: 10px;
+    background-color: rgba(243, 235, 235, 0.979);
+    box-shadow: 0px 0px 1px rgb(231, 228, 228);
+}
+.donate-other{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.donate-more{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+}
+.donate-btn{
+    padding: 10px 20px;
+    border: 0;
+    font-weight: 700;
+    color: white;
+    background-color: salmon;
+    border-radius: 5px;
+}
+.donate-plan-title{
+    text-align: center;
+}
+.donate-plan-title h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.donate-plan{
+    display: flex;
+    justify-content: center;
+}
+.plan1{
+    width: 20%;
+    background-color: #EDF5F6;
+    margin: 1%;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.plan2{
+    width: 20%;
+    background-color: #FFEEEE;
+    margin: 1%;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.plan3{ 
+    width: 20%;
+    background-color: #FFF4D6;
+    margin: 1%;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.donate-update{
+    text-align: center;
+}
+.donate-update h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.donate-update p{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.donate-subscribe{
+    display: inline-block;
+    background-color: #FFF4D6;
+    width: 50%;
+    padding: 80px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.email-field{
+    margin-right: 0;
+    border: 0;
+    height: 30px;
+}
+.press-field{
+    width: 100px;
+    height: 30px;
+    color: #EDF5F6;
+    background-color: #FF5959;
+    margin-left: 0;
+    border: 0;
+}
+.donate-review{
+    display: flex;
+    justify-content: center;
+    
+}
+.review-quote{
+    width: 35%;
+    background-color: #FFBFC7;
+    padding: 100px 50px;
+}
+.review-quote h1{
+    font-size: 40px;
+    
+}
+.review-video{
+    width: 35%;
+    
+}   
+.review-video video{
+    width: 100%;
+    height: fit-content;
+}
+footer{
+    text-align: center;
+    height: 150px;
+    background-color: #0B0D17;
+}
+footer h2{
+    color: #FF5959;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+footer p{
+    color: #EDF5F6;
+    
+}
